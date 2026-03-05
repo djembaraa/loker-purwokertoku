@@ -27,13 +27,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.9,
         },
         {
+            url: `${BASE_URL}/loker-purbalingga`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.9,
+        },
+        {
             url: `${BASE_URL}/loker-cilacap`,
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 0.9,
         },
         {
-            url: `${BASE_URL}/loker-purbalingga`,
+            url: `${BASE_URL}/loker-banjarnegara`,
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 0.9,
@@ -45,10 +51,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.9,
         },
         {
+            url: `${BASE_URL}/loker-tegal`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.8,
+        },
+        {
+            url: `${BASE_URL}/loker-brebes`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.8,
+        },
+        {
             url: `${BASE_URL}/loker-pemalang`,
             lastModified: new Date(),
             changeFrequency: 'daily',
-            priority: 0.9,
+            priority: 0.8,
+        },
+        {
+            url: `${BASE_URL}/loker-pekalongan`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.8,
         },
         {
             url: `${BASE_URL}/about`,

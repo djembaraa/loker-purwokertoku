@@ -62,12 +62,16 @@ export const jobPosting = defineType({
             options: {
                 list: [
                     { title: 'Purwokerto', value: 'purwokerto' },
-                    { title: 'Cilacap', value: 'cilacap' },
                     { title: 'Purbalingga', value: 'purbalingga' },
+                    { title: 'Cilacap', value: 'cilacap' },
+                    { title: 'Banjarnegara', value: 'banjarnegara' },
                     { title: 'Kebumen', value: 'kebumen' },
+                    { title: 'Tegal', value: 'tegal' },
+                    { title: 'Brebes', value: 'brebes' },
                     { title: 'Pemalang', value: 'pemalang' },
+                    { title: 'Pekalongan', value: 'pekalongan' },
                 ],
-                layout: 'radio',
+                layout: 'dropdown',
             },
             validation: (Rule) => Rule.required(),
         }),

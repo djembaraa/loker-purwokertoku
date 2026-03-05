@@ -18,7 +18,7 @@ export interface JobPosting {
 }
 
 // City value types
-export type CitySlug = 'purwokerto' | 'cilacap' | 'purbalingga' | 'kebumen' | 'pemalang'
+export type CitySlug = 'purwokerto' | 'purbalingga' | 'cilacap' | 'banjarnegara' | 'kebumen' | 'tegal' | 'brebes' | 'pemalang' | 'pekalongan'
 
 // Job type values
 export type JobType = 'full-time' | 'part-time' | 'kontrak' | 'freelance' | 'magang'
@@ -26,10 +26,14 @@ export type JobType = 'full-time' | 'part-time' | 'kontrak' | 'freelance' | 'mag
 
 export const cityLabels: Record<string, string> = {
   purwokerto: 'Purwokerto',
-  cilacap: 'Cilacap',
   purbalingga: 'Purbalingga',
+  cilacap: 'Cilacap',
+  banjarnegara: 'Banjarnegara',
   kebumen: 'Kebumen',
+  tegal: 'Tegal',
+  brebes: 'Brebes',
   pemalang: 'Pemalang',
+  pekalongan: 'Pekalongan',
 }
 
 export const jobTypeLabels: Record<string, string> = {

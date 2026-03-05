@@ -3,10 +3,14 @@ import Image from 'next/image'
 
 const cityLinks = [
     { href: '/loker-purwokerto', label: 'Loker Purwokerto' },
-    { href: '/loker-cilacap', label: 'Loker Cilacap' },
     { href: '/loker-purbalingga', label: 'Loker Purbalingga' },
+    { href: '/loker-cilacap', label: 'Loker Cilacap' },
+    { href: '/loker-banjarnegara', label: 'Loker Banjarnegara' },
     { href: '/loker-kebumen', label: 'Loker Kebumen' },
+    { href: '/loker-tegal', label: 'Loker Tegal' },
+    { href: '/loker-brebes', label: 'Loker Brebes' },
     { href: '/loker-pemalang', label: 'Loker Pemalang' },
+    { href: '/loker-pekalongan', label: 'Loker Pekalongan' },
 ]
 
 const quickLinks = [
@@ -33,7 +37,7 @@ export default function Footer() {
                             <span className="text-lg font-bold text-text-primary">LokerPurwokertoku</span>
                         </Link>
                         <p className="text-sm text-text-secondary leading-relaxed">
-                            Portal lowongan kerja terpercaya untuk wilayah Banyumas Raya. Temukan peluang karir terbaik di Purwokerto, Cilacap, Purbalingga, Kebumen, dan Pemalang.
+                            Portal lowongan kerja terpercaya untuk wilayah Banyumas Raya dan sekitarnya. Temukan peluang karir terbaik di Purwokerto, Purbalingga, Cilacap, Banjarnegara, Kebumen, dan kota lainnya.
                         </p>
                     </div>
 

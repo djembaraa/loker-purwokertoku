@@ -11,14 +11,22 @@ import Pagination from '@/components/Pagination'
 const cityDescriptions: Record<string, string> = {
     purwokerto:
         'Temukan lowongan kerja terbaru di Purwokerto dan sekitarnya. Kota terbesar di Kabupaten Banyumas dengan berbagai peluang karir menarik.',
-    cilacap:
-        'Jelajahi kesempatan karir di Cilacap. Kota pelabuhan terbesar di pantai selatan Jawa dengan industri yang berkembang pesat.',
     purbalingga:
         'Lowongan kerja terkini di Purbalingga. Dikenal sebagai kota industri rambut palsu dan bulu mata terbesar di Indonesia.',
+    cilacap:
+        'Jelajahi kesempatan karir di Cilacap. Kota pelabuhan terbesar di pantai selatan Jawa dengan industri yang berkembang pesat.',
+    banjarnegara:
+        'Lowongan kerja terbaru di Banjarnegara. Kabupaten di dataran tinggi Dieng dengan potensi agribisnis dan pariwisata yang terus berkembang.',
     kebumen:
         'Peluang kerja menarik di Kebumen. Kabupaten dengan pertumbuhan ekonomi yang stabil dan beragam sektor usaha.',
+    tegal:
+        'Info lowongan kerja di Tegal. Kota industri di Pantai Utara Jawa dengan sektor manufaktur dan perdagangan yang maju.',
+    brebes:
+        'Lowongan kerja terbaru di Brebes. Kabupaten terluas di Jawa Tengah dengan potensi pertanian dan industri yang besar.',
     pemalang:
         'Info lowongan kerja di Pemalang. Kabupaten di Pantai Utara Jawa dengan potensi ekonomi yang menjanjikan.',
+    pekalongan:
+        'Lowongan kerja di Pekalongan. Kota Batik yang terkenal dengan industri kreatif dan tekstil berskala nasional.',
 }
 
 interface CityPageTemplateProps {
