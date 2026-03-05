@@ -318,4 +318,4 @@ Tambahkan semua variable dari `.env.local` ke Vercel Dashboard → Settings → 
 
 ## Lisensi
 
-Hak cipta © 2026 LokerPurwokertoku. All rights reserved.
+Hak cipta © 2026 Djembaraa Developer . All rights reserved.
